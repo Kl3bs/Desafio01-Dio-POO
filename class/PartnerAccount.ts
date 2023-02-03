@@ -5,7 +5,7 @@ export class PartnerAccount extends DioAccount {
     super(name, accountNumber);
   }
 
-  deposit = (total: number): void => {
-    this.setBalance(total + 10);
-  };
+  //   deposit = (total: number): void => {
+  //     this.setBalance(total + 10);
+  //   };
 }
