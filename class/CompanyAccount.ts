@@ -7,7 +7,7 @@ export class CompanyAccount extends DioAccount {
 
   getLoan = (value: number): void => {
     if (this.getStatus()) {
-      this.setBalance(value);
+      this.deposit(value);
     } else {
       throw new Error("A empresa não está apta ao empréstimo, status = false!");
     }
